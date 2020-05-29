@@ -110,6 +110,21 @@ li {
   background: #ddd;
 }
 
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media screen and (max-width: 600px) {
 
   .content {
