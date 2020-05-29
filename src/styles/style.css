@@ -8,7 +8,7 @@ body {
 }
 
 .note {
-  background: yellow;
+  background: rgb(248, 248, 0, 0.35);
   padding: 5px;
 }
 
