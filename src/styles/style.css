@@ -70,13 +70,11 @@ body {
 }
 
 .bigimg {
-  display: flex;
   height: 200px;
 }
 
-.img img-feet {
-  display: flex;
-  background-size: contain;
+.img-feet {
+  
 }
 
 .smallimg1 {
