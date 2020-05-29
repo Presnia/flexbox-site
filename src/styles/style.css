@@ -62,28 +62,35 @@ body {
   padding: 20px;
 }
 
-.fakeimg {
-  display: flex;
-  flex-wrap: wrap;
+.img {
   background-color: #aaa;
+  background-repeat: no-repeat;
   width: 100%;
-  flex: 1 1 auto;
   /* padding: 20px; */
 }
 
 .bigimg {
+  display: flex;
   height: 200px;
+}
+
+.img img-feet {
+  display: flex;
+  background-size: contain;
 }
 
 .smallimg1 {
   height: 60px;
+  width: auto;
   color: white;
   padding: 10px;
   background-image: url(https://picsum.photos/id/1080/392/60);
+  border-radius: 5px;
 }
 
 .smallimg2 {
   height: 60px;
+  width: auto;
   color: white;
   padding: 10px;
   background-image: url(https://picsum.photos/id/107/392/60);
@@ -91,6 +98,7 @@ body {
 
 .smallimg3 {
   height: 60px;
+  width: auto;
   color: white;
   padding: 10px;
   background-image: url(https://picsum.photos/id/143/392/60);
